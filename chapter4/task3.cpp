@@ -6,7 +6,6 @@
 int main(){
     std::string temp;
     std::vector<int> numbers;
-    int stop = 2;
 
     while(std::cin >> temp) {
 
@@ -14,14 +13,15 @@ int main(){
         break;
 
         numbers.push_back(std::stoi(temp));
+        sort(numbers.begin(), numbers.end());
 
-        if(numbers.size() == stop) {
-            for(int i = 0; i < numbers.size(); i++) {
-                int digit = numbers[i];
-                }
-            numbers.clear();
-            std::cout << "\n";
+        }
+
+        for(int i = 1; i < numbers.size(); i++) {
+            if(numbers[i] == numbers[i - 1]) {
+                std::cout << numbers[i] << " ";
             }
         }
     }
+
 
