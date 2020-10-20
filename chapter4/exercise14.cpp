@@ -4,8 +4,12 @@
 int main()
 {
     std::vector<int> v;
+    int max;
 
-    for (int i = 0; i <= 100; i++)
+    std::cout << "Enter the max value:\n";
+    std::cin >> max;
+
+    for (int i = 0; i <= max; i++)
     {
         v.push_back(i);
     }
