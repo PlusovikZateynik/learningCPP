@@ -7,7 +7,7 @@ int main() {
 
     bool gameComtinue = true;
     
-    while(gameComtinue == true) {
+    while(gameComtinue) {
     
     std::string number;
     vector<char> quess;
