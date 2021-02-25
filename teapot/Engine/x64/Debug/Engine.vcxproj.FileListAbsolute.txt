@@ -1,0 +1,2 @@
+C:\Users\lerma\projects\helloworld\teapot\Engine\x64\Debug\Engine.exe
+C:\Users\lerma\projects\helloworld\teapot\Engine\x64\Debug\Engine.pdb
